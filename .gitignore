@@ -1,0 +1,14 @@
+# Exclude full raw datasets but allow the two adapted public subsets
+data/*.csv
+!data/esco_v1_2_1_data_scientist_essential_relations.csv
+!data/esco_v1_2_1_data_scientist_skill_descriptions.csv
+
+# Python and Jupyter files
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# System files
+.DS_Store
+Thumbs.db
